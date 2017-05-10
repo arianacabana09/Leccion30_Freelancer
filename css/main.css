@@ -44,3 +44,55 @@
  .opciones-nav{
    flex-direction: row-reverse;
  }
+
+ /*portada*/
+ #portada{
+   background-color: rgb(23, 184, 152);
+   width: 100%;
+   height: 600px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+ }
+
+ .perfil{
+   justify-content: flex-end;
+   align-items: center;
+ }
+
+ .text-portada{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .font-color{
+   color: rgb(255, 255, 255);
+   font-size: 63px;
+   font-weight: 700;
+ }
+
+ hr{
+   border: none;
+   background-color: #fff;
+   width: 250px;
+   height: 5px;
+   padding: 0;
+   margin: 10px;
+   display: flex;
+   align-self: center;
+ }
+
+ hr:after{
+   content:"\e9d9";
+   background-color: rgb(23, 184, 152);
+   color: #fff;
+   font-size: 21px;
+   display: inline-block;
+   padding: 0 5px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+ }

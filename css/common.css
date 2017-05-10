@@ -1,3 +1,15 @@
 /*
  * Estilos reutilizables
  */
+
+ /*color de fuente blanco*/
+ .font-color{
+   color: rgb(255, 255, 255);
+ }
+
+ .text-box, .text-portafolio{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }

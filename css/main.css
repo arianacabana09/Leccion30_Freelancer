@@ -53,12 +53,19 @@
    display: flex;
    align-items: center;
    flex-direction: column;
-   justify-content: space-around;
+   justify-content: flex-end;
+   align-content: space-between;
+   padding: 50px;
  }
 
- .perfil{
-   justify-content: flex-end;
+ .perfil-box{
    align-items: center;
+ }
+ #perfil{
+   justify-content: center;
+   align-items: center;
+   min-width: 100%;
+   height: auto;
  }
 
  .text-portada{
@@ -70,8 +77,15 @@
 
  .font-color{
    color: rgb(255, 255, 255);
+ }
+
+ .size{
    font-size: 63px;
    font-weight: 700;
+ }
+
+ span{
+   font-size: 21px;
  }
 
  hr{
